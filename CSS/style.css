@@ -56,5 +56,40 @@ nav ul ul li{
 
 nav ul ul li a{
     background: purple;
-    
 }
+
+label[for = "btMenu"]{
+    padding: 5px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#btMenu{
+    display: none;
+}
+
+label[for = btMenu]{
+    display: none;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+.cor{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 1%;
+    background: aqua;
+}
+
